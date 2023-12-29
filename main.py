@@ -14,5 +14,8 @@ def run_tests():
 if __name__ == "__main__":
     args = sys.argv
     if len(args) > 1:
+        print("starting assertion tests")
         run_tests()
+    else:
+        print("tests are skipped")
     main(1, 0)
